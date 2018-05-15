@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cart"
+        app:showAsAction="always"
+        android:icon="@drawable/cart"
+        android:title="Cart"></item>
+    <item
+        android:id="@+id/item1"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/Add_New">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/InventoryStatus">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/ProfitPercentage">
+    </item>
+
+</menu>
